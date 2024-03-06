@@ -3,6 +3,7 @@ SHELL=/bin/bash
 
 # /src files
 srcFiles=src/anim.go \
+        src/3dchar.gp
 	src/bgdef.go \
 	src/bytecode.go \
 	src/camera.go \

@@ -2,7 +2,7 @@ package alexfightengine
 
 import (
     // Import necessary libraries based on your chosen model format and rendering engine
-    "github.com/go-gl/mathgl/mgl64" // Example for using math32 or other libraries
+    "https://github.com/go-gl/mathgl/tree/master" // Example for using math32 or other libraries
     // ... other imports as needed
 )
 type Character struct {

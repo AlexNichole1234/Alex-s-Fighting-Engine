@@ -1,0 +1,32 @@
+// 3dtraining.zss - 3D Training Module for Alex's Fighting Engine
+
+class TrainingSession {
+    constructor(player, opponent) {
+        this.player = player;
+        this.opponent = opponent;
+    }
+
+    startTraining() {
+        console.log(`${this.player.name} starts training with ${this.opponent.name} in 3D combat.`);
+        // Add your training logic here
+    }
+
+    practiceMove(move) {
+        console.log(`${this.player.name} practices ${move} against ${this.opponent.name}.`);
+        // Implement move practice logic
+    }
+
+    spar() {
+        console.log(`${this.player.name} spars with ${this.opponent.name} in a 3D combat session.`);
+        // Implement sparring logic
+    }
+}
+
+// Usage example:
+const player1 = { name: 'Alex' };
+const player2 = { name: 'Opponent' };
+
+const trainingSession = new TrainingSession(player1, player2);
+trainingSession.startTraining();
+trainingSession.practiceMove('Roundhouse Kick');
+trainingSession.spar();
